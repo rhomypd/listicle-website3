@@ -1,5 +1,8 @@
 .header{
   background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
  .logocontainer {
@@ -14,8 +17,34 @@
   color: #333;
 }
 
+
+.actionContainer{
+  display: flex;
+  align-items: center;
+}
+
 .action{
   font-weight: 400;
-  color: graydark;
+  color: #333;
   font-size: 16px ;
+  margin: 4px 16px;
+}
+
+
+.cta{
+  display: flex;
+  align-items: center;
+}
+
+.cta h3{
+  font-size: 16px;
+  font-weight: 500;
+  color: darkblue;
+  margin-right: 10px;
+}
+
+.cta span{
+  border: 1px solid darkblue;
+  padding: 7px 12px;
+  border-radius: 35px;
 }
