@@ -1,0 +1,21 @@
+.header{
+  background-color: green;
+}
+
+ .logocontainer {
+  display: flex;
+  align-items: center;
+}
+
+.logocontainer h2{
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.action{
+  font-weight: 400;
+  color: graydark;
+  font-size: 16px ;
+}
